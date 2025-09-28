@@ -1,16 +1,16 @@
-<style>
-    @media (max-width: 100px) {
-        div {
-            flex-direction: column;
-            align-items: center;
-        }
-        div img {
-            margin-bottom: 1rem;
-        }
-    }
-</style>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 1rem 5rem; width: 100%; max-width: 800px; margin: 0 auto; flex-wrap: wrap;">
+    <style>
+        @media (max-width: 100px) {
+            div {
+                flex-direction: column;
+                align-items: center;
+            }
+            div img {
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
     <img src="https://www.marefa.org/w/images/thumb/7/7d/Logo_Polytech_Annecy_Chambery.svg/800px-Logo_Polytech_Annecy_Chambery.svg.png" alt="Logo 1" style="max-height: 5rem; object-fit: contain;">
     <img src="https://www.univ-smb.fr/wp-content/themes/usmb/assets/img/logo.svg" alt="Logo 2" style="max-height: 5rem; object-fit: contain;">
 </div>
