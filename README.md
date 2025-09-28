@@ -1,7 +1,7 @@
 
 <p float="left" style="display:flex;justify-content:space-between;padding:0 5em 0 5em">
-    <img src="https://www.marefa.org/w/images/thumb/7/7d/Logo_Polytech_Annecy_Chambery.svg/800px-Logo_Polytech_Annecy_Chambery.svg.png" alt="Logo 1" style="max-height: 5rem; object-fit: contain;">
-    <img src="https://www.univ-smb.fr/wp-content/themes/usmb/assets/img/logo.svg" alt="Logo 2" style="max-height: 5rem; object-fit: contain;">
+    <img src="https://www.marefa.org/w/images/thumb/7/7d/Logo_Polytech_Annecy_Chambery.svg/800px-Logo_Polytech_Annecy_Chambery.svg.png" alt="Logo 1" height="100em">
+    <img src="https://www.univ-smb.fr/wp-content/themes/usmb/assets/img/logo.svg" alt="Logo 2" height="100em">
 </p>
 </br>
 
