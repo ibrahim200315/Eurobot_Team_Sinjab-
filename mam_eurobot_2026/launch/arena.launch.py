@@ -30,6 +30,15 @@ def generate_launch_description():
         ExecuteProcess(
             cmd=[
                 "ros2", "run", "ros_gz_sim", "create",
+                "-file", "file://models/crate_yellow",
+                "-name", "crate_yellow",
+                "-x", "-0.5", "-y", "0", "-z", "0.05"
+            ],
+            output="screen"
+        ),
+        ExecuteProcess(
+            cmd=[
+                "ros2", "run", "ros_gz_sim", "create",
                 "-file", "file://models/simple_robot",
                 "-name", "simple_robot",
                 "-x", "0.05", "-y", "0", "-z", "0.05", "-Y", "3.1415"
@@ -43,6 +52,14 @@ def generate_launch_description():
             output='screen',
             arguments=['/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist']
         ),
+        Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        name='camera_bridge',
+        output='screen',
+        arguments=['/camera/image_raw@sensor_msgs/msg/Image@gz.msgs.Image']
+        ),
+
         Node(
             package='rviz2',
             executable='rviz2',
