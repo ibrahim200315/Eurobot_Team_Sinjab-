@@ -16,6 +16,11 @@ We’ll keep our tone friendly-but-precise and our engineering choices simple an
 - `main` is protected. Small branches: `feat/*`, `fix/*`, `docs/*`.
 - Every change via pull request + a short demo (video or rosbag) when it affects behavior.
 
+## Documentation
+- [System Requirements v0.1](docs/requirements/README.md)
+- [SINJAB Design (PDF + summary)](docs/design/README.md)
+
+
 # Eurobot 2026 - Master Advanced Mechatronics
 
 This is the official baseline repository for the International Challenge of the Master Advanced Mechatronics at Polytech Annecy-Chambéry.
@@ -59,3 +64,4 @@ We suggest running this project on VSCode using the [Dev Containers extension](h
 &#128063; Let's code/design/build some squirrels! &#128063;
 
 <h1>
+
