@@ -19,10 +19,10 @@ We work with precision, respect, and documentation so our future teammates can b
 
 ## 3️⃣ Repository Structure
 Eurobot_Team_Sinjab-/
-┣ sinjab_ws/ → ROS 2 workspace (simulation-first)
-┣ docs/ → Design, requirements, handbook, rules
-┣ .github/ → Issue/PR templates, workflows
-┗ README.md
+   ┣ sinjab_ws/ → ROS 2 workspace (simulation-first)
+   ┣ docs/ → Design, requirements, handbook, rules
+   ┣ .github/ → Issue/PR templates, workflows
+      ┗ README.md
 
 ---
 
