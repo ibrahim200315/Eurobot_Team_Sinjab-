@@ -19,6 +19,8 @@ We’ll keep our tone friendly-but-precise and our engineering choices simple an
 ## Documentation
 - [System Requirements v0.1](docs/requirements/README.md)
 - [SINJAB Design (PDF + summary)](docs/design/README.md)
+- [Project Handbook v0.1](docs/handbook/README.md)
+
 
 
 # Eurobot 2026 - Master Advanced Mechatronics
@@ -64,4 +66,5 @@ We suggest running this project on VSCode using the [Dev Containers extension](h
 &#128063; Let's code/design/build some squirrels! &#128063;
 
 <h1>
+
 
