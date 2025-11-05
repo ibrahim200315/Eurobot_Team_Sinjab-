@@ -1,9 +1,31 @@
-
 <p float="left" style="display:flex;justify-content:space-between;padding:0 5em 0 5em">
     <img src="https://www.marefa.org/w/images/thumb/7/7d/Logo_Polytech_Annecy_Chambery.svg/800px-Logo_Polytech_Annecy_Chambery.svg.png" alt="Logo 1" height="100em">
     <img src="https://www.univ-smb.fr/wp-content/themes/usmb/assets/img/logo.svg" alt="Logo 2" height="100em">
 </p>
 </br>
+
+## Team Identity — Sinjab 🐿️
+**Sinjab** (Arabic: **سِنْجَاب**) means **squirrel**, which aligns with Eurobot 2026’s theme (squirrels, hazelnuts, nests).
+We’ll keep our tone friendly-but-precise and our engineering choices simple and reliable.
+
+### What we focus on first (next 3 months)
+- **Programming + Mechanical** in **simulation first** (electronics arrive later).
+- Build: field world, nav, basic perception, simple crate handling logic, safe end-in-nest behavior.
+
+### How we work
+- `main` is protected. Small branches: `feat/*`, `fix/*`, `docs/*`.
+- Every change via pull request + a short demo (video or rosbag) when it affects behavior.
+
+## Documentation
+- [System Requirements v0.1](docs/requirements/README.md)
+- [SINJAB Design (PDF + summary)](docs/design/README.md)
+- [Project Handbook v0.1](docs/handbook/README.md)
+- [Design (Mechanical)](docs/design/README.md)
+- [Navigation & Mission](docs/navigation/README.md)
+- [Perception](docs/perception/README.md)
+- [Electronics & BOM](docs/bom/README.md)
+
+
 
 # Eurobot 2026 - Master Advanced Mechatronics
 
@@ -46,4 +68,8 @@ We suggest running this project on VSCode using the [Dev Containers extension](h
 
 <h1 style="text-align:center">
 &#128063; Let's code/design/build some squirrels! &#128063;
+
 <h1>
+
+
+
