@@ -20,6 +20,10 @@ We’ll keep our tone friendly-but-precise and our engineering choices simple an
 - [System Requirements v0.1](docs/requirements/README.md)
 - [SINJAB Design (PDF + summary)](docs/design/README.md)
 - [Project Handbook v0.1](docs/handbook/README.md)
+- [Design (Mechanical)](docs/design/README.md)
+- [Navigation & Mission](docs/navigation/README.md)
+- [Perception](docs/perception/README.md)
+- [Electronics & BOM](docs/bom/README.md)
 
 
 
@@ -66,5 +70,6 @@ We suggest running this project on VSCode using the [Dev Containers extension](h
 &#128063; Let's code/design/build some squirrels! &#128063;
 
 <h1>
+
 
 
