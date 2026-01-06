@@ -1,7 +1,21 @@
-# Power architecture
+# Power Architecture
 
-## Rails (current documentation baseline)
-- High-power rail: 12V (nominal 11.1–12.8V) for traction and power components
-- Logic rail: 5V for Raspberry Pi, Arduino/MCU, sensors/servos via UBEC
+## Voltage Rails
+- **24V rail**
+  - Source: LiFePO₄ battery
+  - Consumers: Sabertooth 2x25 (motors)
 
-See: `Nominal_voltages_of_components.pdf` for component-by-component voltage roles and estimated peak current / power.
+- **12V rail**
+  - Source: Buck converter (24V → 12V)
+  - Consumers: servos, auxiliary electronics
+
+- **5V rail**
+  - Source: Buck converter (12V → 5V)
+  - Consumers: Raspberry Pi, MCU, IMU, logic sensors
+
+## Safety
+- Main fuse directly after battery
+- Emergency stop cuts 24V rail
+- Logic rails collapse automatically when 24V is cut
+
+See `Nominal_voltages_of_components.pdf` for per-component voltages and current estimates.
