@@ -1,16 +1,23 @@
-# Electronics (Sinjab)
+# Electronics — SINJAB Robot
 
-This folder contains the electronics architecture, BOM, schematics, and interface definitions for the SINJAB robot.
+This folder contains the full electronics architecture for the SINJAB Eurobot robot.
 
-## Quick status (from weekly presentations)
-- TF tree is complete: map → odom → base_link → (wheels, lidar_link, camera_link).  
-- SLAM Toolbox integrated (async SLAM + loop closure) with stable mapping and localization.
+## Canonical Power Architecture (FINAL)
+- Battery: **24V LiFePO₄**
+- High-power rail: **24V** (motors via Sabertooth 2x25)
+- Intermediate rail: **12V** (servos and auxiliary electronics)
+- Logic rail: **5V** (Raspberry Pi, MCU, sensors)
 
-## Folder map
-- `bom/` : BOM spreadsheets and purchase notes
-- `power/` : nominal voltage rails, power budgeting, fuses, safety
-- `schematics/` : KiCad schematics (power distribution, sensors IO, power & motion)
-- `interfaces/` : MCU ↔ Raspberry Pi protocol, connector pinouts (to be finalized)
+Architecture:
+24V Battery → Fuse → E-Stop → 24V BUS  
+24V BUS → Sabertooth 2x25  
+24V BUS → Buck 24→12V → 12V BUS  
+12V BUS → Buck 12→5V → 5V BUS  
 
-## Key documents
-- Nominal voltage rails and power estimation: see `power/Nominal_voltages_of_components.pdf`
+This decision supersedes earlier 12V-only drafts.
+
+## Folder Structure
+- `bom/` – Bill of Materials
+- `power/` – Voltage rails, power budget, fuses
+- `schematics/` – KiCad schematics
+- `interfaces/` – Pi ↔ MCU ↔ drivers communication
