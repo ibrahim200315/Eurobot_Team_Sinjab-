@@ -25,6 +25,8 @@ We’ll keep our tone friendly-but-precise and our engineering choices simple an
 - [Perception](docs/perception/README.md)
 - [Electronics & BOM](docs/bom/README.md)
 
+## Electronics
+- See [`electronics/`](electronics/) for BOM, nominal voltages, and KiCad schematics.
 
 
 # Eurobot 2026 - Master Advanced Mechatronics
@@ -70,6 +72,7 @@ We suggest running this project on VSCode using the [Dev Containers extension](h
 &#128063; Let's code/design/build some squirrels! &#128063;
 
 <h1>
+
 
 
 
