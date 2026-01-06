@@ -25,6 +25,13 @@ We’ll keep our tone friendly-but-precise and our engineering choices simple an
 - [Perception](docs/perception/README.md)
 - [Electronics & BOM](docs/bom/README.md)
 
+## Electronics Architecture
+The SINJAB robot uses a **24V LiFePO₄ battery** with staged conversion:
+- 24V → motors
+- 24V → 12V → 5V → logic
+
+All electronics documentation, BOM, and schematics are available in:
+[`/electronics`](electronics/)
 
 
 # Eurobot 2026 - Master Advanced Mechatronics
@@ -70,6 +77,8 @@ We suggest running this project on VSCode using the [Dev Containers extension](h
 &#128063; Let's code/design/build some squirrels! &#128063;
 
 <h1>
+
+
 
 
 
