@@ -24,6 +24,11 @@ We’ll keep our tone friendly-but-precise and our engineering choices simple an
 - [Navigation & Mission](docs/navigation/README.md)
 - [Perception](docs/perception/README.md)
 - [Electronics & BOM](docs/bom/README.md)
+- [Final Mechanical design](docs/mechanical/README.md)
+- [Programming & simulation](docs/programming/README.md)
+- [Electronics & PCB](electronics/README.md)
+- [Project presentations](docs/project/README.md)
+- [Simulation demo](docs/demo/README.md)
 
 ## Electronics Architecture
 The SINJAB robot uses a **24V LiFePO₄ battery** with staged conversion:
@@ -77,6 +82,7 @@ We suggest running this project on VSCode using the [Dev Containers extension](h
 &#128063; Let's code/design/build some squirrels! &#128063;
 
 <h1>
+
 
 
 
